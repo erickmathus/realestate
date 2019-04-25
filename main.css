@@ -19,17 +19,62 @@ body{
   text-decoration: none;
   font size:18px;
 }
+.title-head{
+  margin-top: 0;
+  font-size: 2.5em;
+  color: whitesmoke;
+  text-transform: uppercase;
+
+}
 .main-header{
   background-image: url('https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg');
   background-size: cover;
-  background-position: 50% 25%;
-  height: 39vh;
+  background-position: 50% 30%;
+  height: 60vh;
+}
+.main-header h1, .main-header h2, .search-grid p {
+
+  color:whitesmoke;
+}
+.search-grid{
+  display: grid;
+  grid-template: 300px / 50% 20%;
+  padding-top: 6%;
+  justify-content: center;
+  display: grid;
+  grid-template: 300px / 50% 20%;
+  grid-gap:1%;
+}
+.search-grid{
+  padding-top: 6%
+  display:grid;
+  background: rgba(30 ,53, 62, 0.72);
+  padding: 1% 2% 3% 2%;
+}
+.search-grid div{
+  background: rgba(30, 53, 62, 0.72);
+  border-radius: 3px;
+  padding: 1% 2% 3% 4%
+}
+.search-grid div:nth-child(2){
+  padding: 1% 5% 3% 5%;
+}
+.info-section{
+  margin-top: 3%;
+
 }
 .image-grid {
   display: grid;
+  grid-template: 180px 180px / 330px 330px;
+  grid-gap: 2%
 }
 .image-grid div{
   background-image: url('http://lorempixel.com/400/200/sports');
   width: 400px;
   height: 200px;
+}
+.info-grid{
+  display: gird;
+  grid-template: 300px / 50% 20%;
+  grid-gap: 5%;
 }
